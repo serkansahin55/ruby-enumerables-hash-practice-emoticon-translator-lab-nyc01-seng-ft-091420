@@ -28,8 +28,12 @@ end
 
 
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(path, emoticon)
+  emoticons = load_library(path)
+  emoticons.each do |key, value|
+    value.each do |inner_key, inner_value|
+      if inner_value == emoticon
+        return 
   
 end
 
