@@ -19,11 +19,10 @@ def get_english_meaning(path, emoticon )
     value.each do | inner_key, inner_value|
       if inner_value == emoticon
         return key
-      else
-        return "Sorry, that emoticon was not found"
       end
     end
   end
+  return "Sorry, that emoticon was not found"
 end
 
 
