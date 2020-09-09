@@ -33,8 +33,12 @@ def get_japanese_emoticon(path, emoticon)
   emoticons.each do |key, value|
     value.each do |inner_key, inner_value|
       if inner_value == emoticon
-        return 
-  
+        return emoticons[key][:japanese]
+      else
+        return "Sorry, that emoticon was not found"
+      end
+    end
+  end
 end
 
 
