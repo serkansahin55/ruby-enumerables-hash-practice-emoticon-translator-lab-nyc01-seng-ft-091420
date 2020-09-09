@@ -12,13 +12,15 @@ def load_library(path)
 end
 
 
-def get_english_meaning(path, emoticon)
+def get_english_meaning(path, emoticon )
   # code goes here
   emoticons = load_library(path)
   emoticons.each do |key, value|
     value.each do | inner_key, inner_value|
       if inner_value == emoticon
         return key
+      else
+        return 
 end
 
 
