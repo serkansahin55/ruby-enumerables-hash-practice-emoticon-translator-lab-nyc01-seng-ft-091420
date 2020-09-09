@@ -20,7 +20,10 @@ def get_english_meaning(path, emoticon )
       if inner_value == emoticon
         return key
       else
-        return 
+        return "Sorry, that emoticon was not found"
+      end
+    end
+  end
 end
 
 
