@@ -12,7 +12,7 @@ def load_library(path)
 end
 
 
-def get_english_meaning(path, )
+def get_english_meaning(path, emnoticon)
   # code goes here
   emoticons = load_library
   
