@@ -11,14 +11,20 @@ def load_library(path)
   emoticons
 end
 
+
+def get_english_meaning(path, )
+  # code goes here
+  emoticons = load_library
+  
+end
+
+
+
 def get_japanese_emoticon
   # code goes here
   
 end
 
-def get_english_meaning
-  # code goes here
-end
 
 
 # yaml = YAML.load_file(path)
